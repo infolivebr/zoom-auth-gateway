@@ -57,4 +57,4 @@ app.post('/', (req, res) => {
   return res.json({ signature: sdkJWT, sdkKey: process.env.ZOOM_MEETING_SDK_KEY })
 })
 
-app.listen(port, () => console.log(`Zoom Meeting SDK Auth Endpoint Sample Node.js, listening on port ${port}!`))
+app.listen(port, () => console.log(`Servidor de autenticação ZoomSDK na porta ${port}`))
